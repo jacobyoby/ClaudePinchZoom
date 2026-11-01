@@ -1,0 +1,22 @@
+name: ClaudePinchZoom
+options:
+  bundleIdPrefix: org.jacobrakai
+  deploymentTarget:
+    macOS: "14.0"
+targets:
+  ClaudePinchZoom:
+    type: application
+    platform: macOS
+    sources: [Sources]
+    info:
+      path: Sources/Info.plist
+      properties:
+        LSUIElement: true
+        CFBundleDisplayName: Claude Pinch Zoom
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.jacobrakai.ClaudePinchZoom
+        SWIFT_VERSION: "5.0"
+        CODE_SIGN_IDENTITY: "-"
+        ENABLE_HARDENED_RUNTIME: NO
+        GENERATE_INFOPLIST_FILE: YES
