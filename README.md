@@ -1,3 +1,5 @@
+> **Moved:** this now lives in [jacobrakaiFoundation/claude-mods](https://github.com/jacobrakaiFoundation/claude-mods/tree/main/apps/ClaudePinchZoom), maintained by the Jacobrakai Foundation. This repository is archived; the copy here still works but won't get updates.
+
 # Claude Pinch Zoom
 
 Pinch-to-zoom for the Claude desktop app on macOS and Windows.
